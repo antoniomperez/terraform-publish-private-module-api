@@ -1,0 +1,15 @@
+name: "Terraform publish module API"
+description: "Pusblish modules or new version into terraform register directly API."
+author: "Antonio Márquez Pérez"
+
+inputs:
+  GITHUB_TOKEN:
+    description: "Github Token"
+    required: true
+  TERRAFORM_TOKEN:
+    description: "Terraform Token"
+    required: true
+
+runs:
+  using: "node12"
+  main: "dist/index.js"

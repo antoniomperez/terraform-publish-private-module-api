@@ -1,0 +1,14 @@
+{
+  "name": "terraform-publish-private-module-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/actions.js -o dist"
+  },
+  "repository": "https://github.com/antoniomperez/terraform-publish-private-module-api.git",
+  "author": "Antonio Márquez Pérez <antonio.marquezperez@everis.nttdata.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/ncc": "^0.33.3"
+  }
+}
